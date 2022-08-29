@@ -1,0 +1,15 @@
+
+body{background-color: rgb(6, 4, 27);}
+.red{margin: 0 auto; width: 1100px;height:600px;background-color: rgb(255, 0, 0);position: relative;margin-top: 100px; overflow: hidden;transition: 0.6s; cursor: pointer;}
+.red:hover{box-shadow: 0px 0px 100px #fff;}
+    .blue_1{height:220px;width:470px;background-color: blue;position: absolute;overflow: hidden; top:0;right:0;border-left: 30px solid white;border-bottom:30px solid white}
+            .red_1 {z-index: 1;position: relative; height: 600px;width: 30px; background-color: red;transform: rotate(61deg);float:right;margin: -173px 172px -20px 3px;border-right: 40px solid white;border-left: 25px solid white;}
+    .blue_2{height:220px;width:470px;background-color: blue;position: absolute;overflow: hidden; top:0 ;left:0;border-right: 30px solid white;border-bottom:30px solid white}
+            .red_2{z-index: 1;position: relative; height: 600px;width: 30px;background-color: red;transform: rotate(-61deg);float:right;margin: -149px 172px -20px 3px;border-right: 40px solid white;border-left: 25px solid white;}
+    .blue_3{height:220px;width:470px;background-color: blue;position: absolute;overflow: hidden; bottom:0;right:0;border-left: 30px solid white;border-top: 30px solid white}
+            .red_3{z-index: 1;position: relative; height: 600px;width: 30px;background-color: red;transform: rotate(122deg);float:right;margin: -189px 158px -20px 3px;border-right: 40px solid white;border-left: 25px solid white;}
+    .blue_4{ height:220px;width:470px;background-color: blue;position: absolute;overflow: hidden; bottom:0;left:0;border-right: 30px solid white;border-top: 30px solid white}
+            .red_4{z-index: 1;position: relative; height: 600px;width: 30px;background-color: red;transform: rotate(61deg);float:right;margin: -230px 172px -20px 3px;border-left: 40px solid white;border-right: 25px solid white;}
+    .name{width: 100%;float: left;}
+        .name h2{text-align: center;color: azure; font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;letter-spacing: 164px;padding:0  0 0 160px;}
+img{position: absolute;right:10px ;bottom: 20px;}
